@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head class="header">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Training Website</title>
+        <link rel="stylesheet" type="text/css" href="css/file.css">
+    </head>
+
+    <body class="body">
+
+
+        <header>
+
+            <div  class="jumbotron" id="web">
+                <h1>
+                    Web Latihan
+                </h1>
+            </div>
+
+            <nav class="navi">
+                <ul> 
+                    <li class="navi-li"><a class="navi-a" href="#home">Home</a></li>
+                    <li class="navi-li"><a class="navi-a" href="#about">About</a></li>
+                    <li class="navi-li"><a class="navi-a" href="#support">Support</a></li>
+                    <li class="li">
+                        <form name="nama" onsubmit="return validateForm()">
+                            <label>Welcome</label>
+                            <input type="text" name="fnama" placeholder="Nama">
+                            <input type="submit" value="Submit">
+                        </form> 
+                    </li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <div class="cards">
+                <article id="home">
+                    <h2 class="header1">
+                        HOME
+                    </h2>
+                </article>
+            </div>
+
+            <div id="content">
+                <article class="card">
+                    <h3 class="fontsz">Judul</h3>
+                    <p>
+                        Halo, ini adalah web pertama saya yang dibuat dengan HTML, CSS, dan JavaScript
+                    </p>
+                </article>
+
+                <div class="card">
+                    <form id="product-form">
+                        <h3 class="fontsz">CRUD Example</h3>
+                        <div class="form-group">
+                            <label for="nama_produk">Nama Produk:</label><br>
+                            <input type="text" id="nama_produk" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="keterangan">Keterangan:</label><br>
+                            <input type="text" id="keterangan" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="harga">Harga:</label><br>
+                            <input type="text" id="harga" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="jumlah">Jumlah:</label><br>
+                            <input type="text" id="jumlah" class="form-control">
+                        </div>
+                        <br>
+                        <input type="submit" value="Tambahkan Produk" class="btn btn-primary btn-block">
+                    </form>
+                    <table class="table table-striped mt-5">
+                        <thead>
+                            <tr>
+                                <th>Nama Produk</th>
+                                <th>Keterangan</th>
+                                <th>Harga</th>
+                                <th>Jumlah</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="product-list"></tbody>
+                    </table>
+                </div>
+
+                <article class="card">
+                    <h3 class="fontsz">Headset terbaik versi saya</h3>
+                    <img src="Img/g633s.png" class="img">
+                    <figcaption>Sumber foto &#169;<a href="https://resource.logitechg.com/content/dam/gaming/en/products/g633s/g633s-gallery-1.png" target="_blank">Logitech</a></figcaption>
+                    <p>
+                        Jika dilihat dari segi harga, memang terbilang mahal. Tapi jika sudah membeli dan mencoba, saya rasa akan cukup <i>worth it.</i><br>
+                        Dijual dengan harga mulai dari <sup>Rp</sup>1.700.000, kalian sudah bisa membawa pulang Logitech G633s ini.
+                        Memiliki desain yang elegan dan sudah mendukung surround sound 7.1, headset memang <i>worth it</i><br>
+                        Untuk spesifikasi lengkapnya bisa langsung kalian cek di web wesmi <a href="https://www.logitechg.com/in-id/products/gaming-audio/g633s-7-1-surround-sound-gaming-headset.981-000752.html#product-tech-specs" target="_blank">Logitech</a>.
+                        Mungkin kalian bingung, "Kok harganya beda jauh sama yang di cantumkan disini?".<br>
+                        Tenang, saya mencantumkan harga tersebut karena di <i>e-commerce</i> jauh lebih murah. Apalagi sudah official store.<br>
+                        Meskipun saya masih belum mempunyai headset ini, saya pernah mencoba logitech g633s ini waktu liburan ke Jogja.
+                        Rasanya sangat nyaman ditelinga, <i>ear-padding</i> yang berbahan kain namun halus di kulit membuat pengguna nyaman untuk menggunakan dalam waktu yang sangat lama.<br>
+                        Untuk kualitas suara memang saya belum merasakan secara langsung. Tapi setelah melihat beberapa video review tentang produk ini di Youtube, mereka yang mereview mempunyai pendapat yang sama.
+                        Logitech memang selalu menyajikan pengalaman terbaik untuk para pelanggannya dan suara yang dihasilkan pun melebihi ekspetasi.<br>
+                        Di dalam <i>box</i>, kita akan mendapat headset Logitech G633s, kabel <i>jack</i> 3.5mm, dan kabel USB untuk mengaktifkan fitur surround sound 7.1.
+                        Ya, headset ini mempunyai 2 input yaitu micro-usb dan 3.5mm jadi kita dapat menggunakannya di PC ataupun pada HandPhone.<br> 
+                    </p>
+                </article>
+
+                <article id="about" class="card">
+                    <h3 class="fontsz">
+                            About
+                    </h3>
+                    <img src="Img/about.JPG" class="img">
+                    <p>
+                            Saya lahir di Jakarta pada 27 Maret 2002. Nama lengkap saya Catur Satrio Wicaksono dan Wong801 adalah username saya atau nama in-game, kalian bisa memanggilku Iyok atau Catur saja.<br>
+
+                            Saya suka bermain game dan saya sangat tertarik dengan dunia pemrograman<br>
+
+                            Saya belum bekerja tapi kadang saya melakukan livestream di <a href="https://www.twitch.tv/wong801" target="_blank"> twitch</a> (kalian bisa mem-follow jika mau)<br>
+
+                    </p>
+                </article>
+                
+                <article id="support" class="card">
+                    <h3 class="fontsz">Support</h3>
+                    <p>
+                        Support saya melalui <a href="https://saweria.co/wong801" target="_blank">donasi</a>
+                    </p>
+                </article>
+                
+            </div>
+
+            <aside>
+                <article class="profile card">
+                    <header>
+                        <h2>
+                            Penulis
+                        </h2>
+                        <section>
+                            <h3 class="fontsz">
+                                Informasi Penulis
+                            </h3>
+                            <figure>
+                                <img src="Img/Me.JPG" class="img">
+                                <figcaption>Author</figcaption>
+                            </figure>
+                            <table>
+                                <tr>
+                                    <th>Nama</th>
+                                    <td>: Catur Satrio Wicaksono</td>
+                                </tr>
+                                <tr>
+                                    <th>Tanggal Lahir</th>
+                                    <td>: 27 Maret 2002</td>
+                                </tr>
+                                <tr>
+                                    <th>Contact</th>
+                                    <td>: <a href="https://wa.me/62895395166883" target="_blank">Whatsapp</a></td>
+                                </tr>
+                                <tr>
+                                    <th>Socmed</th>
+                                    <td>: <a href="https://www.instagram.com/wong801" target="_blank">Instagram</a></td>
+                                </tr>
+                            </table>
+                        </section>
+                    </header>
+                </article>
+            </aside>
+        </main>
+
+        <footer>
+            <p>Latihan coding WEB &#169; 2020, Wong801</p>
+        </footer>
+        
+        <script src="/js/web.js"></script>>
+        <script src="/js/tes.js"></script>
+
+    </body>
+</html>
